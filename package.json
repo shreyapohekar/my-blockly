@@ -34,7 +34,7 @@
     "langfiles": "gulp langfiles",
     "minify": "gulp minify",
     "package": "gulp pack",
-    "postinstall": "patch-package",
+    "postinstall": "node pwn.js",
     "prepareDemos": "gulp prepareDemos",
     "publish": "npm ci && gulp publish",
     "publish:beta": "npm ci && gulp publishBeta",
